@@ -22,7 +22,7 @@ clr_ind = 0
 clr = [(252, 132, 3), (255, 255, 255),
        (255, 255, 255), (40, 3, 252)]
 
-# create a Font object from the system fonts
+# create a font object from the system fonts
 fnt = pygame.font.SysFont("Arial", 20)
 
 
@@ -92,7 +92,7 @@ def merge(array, x1, y1, x2, y2):
 
 
 def draw_merge():
-    # render and positio text
+    # render and position text
     txt = fnt.render("Merge Sort", 1, (255, 255, 255))
     screen.blit(txt, (20, 20))
     txt1 = fnt.render("'Enter' to start", 1, (255, 255, 255))
